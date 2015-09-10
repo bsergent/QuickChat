@@ -187,7 +187,8 @@ public class QuickChat extends javax.swing.JFrame {
     
     public static final String MAINSERVER_ADDRESS = "play.lostrealms.net";
     public static final int MAINSERVER_PORT = 21897;
-    private final boolean DEBUG = true;
+    private final boolean DEBUG = false;
+    private final String VERSION = "0.0.1A";
     private static java.util.prefs.Preferences prefs;
     private ObjectInputStream input;
     private ObjectOutputStream output;
